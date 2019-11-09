@@ -7,5 +7,6 @@
 
 void Crash(int errorNumber);
 int Prework(char *buffer, size_t fileSize);
+void Executor(char *buffer, size_t fileSize);
 
 #endif

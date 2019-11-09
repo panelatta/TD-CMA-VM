@@ -1,6 +1,8 @@
 {
     "files.associations": {
+        "*.m": "matlab",
         "stdio.h": "c",
-        "string.h": "c"
+        "string.h": "c",
+        "types.h": "c"
     }
 }
