@@ -4,7 +4,7 @@
 #include "errlist.h"
 #include "td-cma.h"
 
-inline void Crash(int errorNumber) {
-    fputs(ERR_MSG[errorNumber], stderr);
-    exit(errorNumber);
+inline void Crash(int msgNumber) {
+    fputs(Messeges[msgNumber], stderr);
+    exit(msgNumber);
 }
